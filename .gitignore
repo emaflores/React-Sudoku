@@ -21,3 +21,37 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Ignorar archivos generados por Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignorar archivos generados por el entorno de desarrollo
+/.idea
+/.vscode
+/.env
+.DS_Store
+
+# Ignorar archivos de construcción y salida de compilación
+/build
+/dist
+
+# Ignorar archivos de configuración local
+.env.local
+
+# Ignorar archivos de registro y caché de prueba
+/.coverage
+/coverage/
+/.nyc_output
+
+# Ignorar archivos generados por herramientas de construcción
+.DS_Store
+babel.config.js
+webpack.config.js
+
+# Ignorar archivos generados por herramientas de desarrollo
+.eslintcache
+

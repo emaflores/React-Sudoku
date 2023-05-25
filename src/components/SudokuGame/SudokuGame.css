@@ -1,0 +1,73 @@
+body {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .sudoku-board {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .sudoku-board td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
+  .sudoku-board input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    /* padding: 5px; */
+    background-color: transparent;
+  }
+  
+  .sudoku-board input:focus,
+  .sudoku-board input:hover {
+    background-color: #e2e2e2;
+    border-color: #999;
+  }
+  
+  
+  h1 {
+    text-align: center;
+
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .quadrant-even {
+    background-color: white;
+  }
+  
+  .quadrant-odd {
+    background-color: gray;
+  }
+
+  .black {
+    color: black;
+  }
+
+  .valid {
+    color: green;
+  }
+
+  .invalid {
+    color: red;
+  }
+
+
+  
